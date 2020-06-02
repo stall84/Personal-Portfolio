@@ -1,0 +1,63 @@
+/*
+html {
+    background: url('/images/Uranus2.jpg') no-repeat center center fixed;
+    background-color: aliceblue;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+*/
+
+/* 
+ light-blue uranus color: #4fc1e9
+ darker blue uranus: #3bafda
+ */
+
+#grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr;
+}
+
+#grid > div {
+    box-shadow: .2rem .2rem;
+    background: #eee;
+    border-radius: 1rem;
+    margin: 1em;
+    padding: 2em;
+    transition: box-shadow 1s ease-in-out;
+}
+
+#grid > div:hover {
+    box-shadow: .4rem .4rem;
+}
+
+#grid > div:nth-child(odd) {
+    background: #ddd;
+}
+
+/*
+#headerSec {
+    height: 30vh;
+    width: 95vw;
+    margin: 2em 1em 2em 1em;
+    background: url('/images/Uranus2.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#heroSec {
+    height: 30vh;
+    width: 95vw;
+    margin: 2em 1em 2em 1em;
+    background: url('/images/Saturn1.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+*/
+
+h1 {
+    margin-top: 2em;
+    text-align: center;
+    font-family: Cambria, Georgia;
+    font-size: 48px;
+}
