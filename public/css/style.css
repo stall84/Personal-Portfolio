@@ -1,22 +1,12 @@
-/*
-html {
-    background: url('/images/Uranus2.jpg') no-repeat center center fixed;
-    background-color: aliceblue;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-*/
 
-/* 
- light-blue uranus color: #4fc1e9
- darker blue uranus: #3bafda
- */
+
+ #navbar {
+     opacity: .8;
+ }
 
 #grid {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 2fr;
     grid-template-rows: 1fr 2fr 2fr;
 }
 
